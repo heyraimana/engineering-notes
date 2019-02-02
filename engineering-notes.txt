@@ -1,0 +1,111 @@
+* visual studio code
+  * sidebar
+    ⌘b                              toggle sidebar
+    ⇧⌘e                             show explorer
+    ⇧⌘f                             show search
+    ⌃⇧g                             show source control
+    ⇧⌘d                             show debug
+    ⇧⌘x                             show extensions
+
+  * editor
+    ⌥⌘→                             open next editor
+    ⌥⌘←                             open previous editor
+    ⌘\                              split editor
+    ⌘w                              close editor
+    ⇧⌘t                             reopen closed editor
+
+  * integrated terminal
+    ⌃`                              toggle integrated terminal
+    ⌘\                              split terminal
+    ⌥⌘→                             open next terminal
+    ⌥⌘←                             open previous terminal
+
+  * other
+    ⌘/                              toggle line comment
+    ⌘,                              show user settings
+    ⌘n                              new untitled file
+    ⇧⌘p                             show command palette
+    ⇧⌘n                             new window
+    ⇧⌘w                             close window
+    ⌘k f                            close folder
+    ⌘k ⌘s                           open keyboard shortcuts
+
+
+
+
+* node ecosystem
+  * nvm
+    * getting started
+      official docs                 https://github.com/creationix/nvm
+      install and update nvm        curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+      verify installation           command -v nvm        
+
+    * install node and npm
+      nvm install lts/*             install current lts node version                   
+      nvm install node              install current node version
+
+  * npm
+    * getting started
+      official docs                 https://docs.npmjs.com
+
+    * list installed packages
+      npm ls --global --depth 0     list global packages with tree depth of 0
+
+
+
+
+* git
+  * getting started
+    offical docs                    https://git-scm.com/doc
+
+
+
+
+* bash
+  exit                              exit shell
+
+
+
+
+* browsers
+  * google chrome
+    f12                             toggle developer tools
+
+  * firefox
+    f12                             toggle developer tools
+
+
+
+
+* mac key symbols
+  ⌘                                 command
+  ⌃                                 control
+  ⇧                                 shift
+  ⌥                                 option
+  ↑ ↓ ← →                           up / down / left / right
+  ↵                                 enter/return
+  ⇥                                 tab
+  ⌫                                 delete
+
+
+
+
+* html
+
+
+
+
+* css
+
+
+
+
+* javascript
+
+
+
+
+* prettier
+
+
+
