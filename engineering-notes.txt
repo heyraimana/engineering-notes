@@ -66,6 +66,7 @@
       enable format on save             'editor.formatOnSave: true' and 'prettier.requireConfig: true'
 
     * eslint integration
+      additional docs                   https://stackoverflow.com/questions/44690308/whats-the-difference-between-prettier-eslint-eslint-plugin-prettier-and-eslint/44690309
       turn off eslint's formatting      npm install --save-dev eslint-config-prettier
       enable above integration          add 'extends: ['prettier']' to .eslintrc.js
 
