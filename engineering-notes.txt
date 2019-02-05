@@ -1,34 +1,34 @@
 * visual studio code
   * sidebar
-    ⌘b                              toggle sidebar
-    ⇧⌘e                             show explorer
-    ⇧⌘f                             show search
-    ⌃⇧g                             show source control
-    ⇧⌘d                             show debug
-    ⇧⌘x                             show extensions
+    ⌘b                                  toggle sidebar
+    ⇧⌘e                                 show explorer
+    ⇧⌘f                                 show search
+    ⌃⇧g                                 show source control
+    ⇧⌘d                                 show debug
+    ⇧⌘x                                 show extensions
 
   * editor
-    ⌥⌘→                             open next editor
-    ⌥⌘←                             open previous editor
-    ⌘\                              split editor
-    ⌘w                              close editor
-    ⇧⌘t                             reopen closed editor
+    ⌥⌘→                                 open next editor
+    ⌥⌘←                                 open previous editor
+    ⌘\                                  split editor
+    ⌘w                                  close editor
+    ⇧⌘t                                 reopen closed editor
 
   * integrated terminal
-    ⌃`                              toggle integrated terminal
-    ⌘\                              split terminal
-    ⌥⌘→                             open next terminal
-    ⌥⌘←                             open previous terminal
+    ⌃`                                  toggle integrated terminal
+    ⌘\                                  split terminal
+    ⌥⌘→                                 open next terminal
+    ⌥⌘←                                 open previous terminal
 
   * other
-    ⌘/                              toggle line comment
-    ⌘,                              show user settings
-    ⌘n                              new untitled file
-    ⇧⌘p                             show command palette
-    ⇧⌘n                             new window
-    ⇧⌘w                             close window
-    ⌘k f                            close folder
-    ⌘k ⌘s                           open keyboard shortcuts
+    ⌘/                                  toggle line comment
+    ⌘,                                  show user settings
+    ⌘n                                  new untitled file
+    ⇧⌘p                                 show command palette
+    ⇧⌘n                                 new window
+    ⇧⌘w                                 close window
+    ⌘k f                                close folder
+    ⌘k ⌘s                               open keyboard shortcuts
 
 
 
@@ -36,56 +36,83 @@
 * node ecosystem
   * nvm
     * getting started
-      official docs                 https://github.com/creationix/nvm
-      install and update nvm        curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
-      verify installation           command -v nvm        
+      official docs                     https://github.com/creationix/nvm
+      install and update nvm            curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+      verify installation               command -v nvm        
 
     * install node and npm
-      nvm install lts/*             install current lts node version                   
-      nvm install node              install current node version
+      nvm install lts/*                 install current lts node version                   
+      nvm install node                  install current node version
 
   * npm
     * getting started
-      official docs                 https://docs.npmjs.com
+      official docs                     https://docs.npmjs.com
 
     * list installed packages
-      npm ls --global --depth 0     list global packages with tree depth of 0
+      npm ls --global --depth 0         list global packages with tree depth of 0
 
+
+
+
+* code quality
+  * prettier
+    * getting started
+      official docs                     https://prettier.io/docs/en/index.html
+      install locally                   npm install --save-dev prettier
+      create config file                .prettierrc.js
+
+    * vscode integration
+      install vscode extension          prettier - code formatter by esben petersen
+      enable format on save             'editor.formatOnSave: true' and 'prettier.requireConfig: true'
+
+    * eslint integration
+      turn off eslint's formatting      npm install --save-dev eslint-config-prettier
+      enable above integration          add 'extends: ['prettier']' to .eslintrc.js
+
+  * eslint
+    * getting started
+      official docs                     https://eslint.org/docs/user-guide/
+      install locally                   npm install --save-dev eslint
+      create config file                .eslintrc.js
+
+    * vscode integration
+      install vscode extension          eslint by dirk baeumer
+      disable default vscode linting    add 'javascript.validate.enable: false' and 'typescript.validate.enable: false' to user settings
 
 
 
 * git
   * getting started
-    offical docs                    https://git-scm.com/doc
+    offical docs                        https://git-scm.com/doc
 
 
 
 
 * bash
-  exit                              exit shell
+  exit                                  exit shell
 
 
 
 
 * browsers
   * google chrome
-    f12                             toggle developer tools
+    f12                                 toggle developer tools
 
   * firefox
-    f12                             toggle developer tools
+    f12                                 toggle developer tools
 
 
 
 
 * mac key symbols
-  ⌘                                 command
-  ⌃                                 control
-  ⇧                                 shift
-  ⌥                                 option
-  ↑ ↓ ← →                           up / down / left / right
-  ↵                                 enter/return
-  ⇥                                 tab
-  ⌫                                 delete
+  ⌘                                     command
+  ⌃                                     control
+  ⇧                                     shift
+  ⌥                                     option
+  ↑ ↓ ← →                               up / down / left / right
+  ↵                                     enter/return
+  ⇥                                     tab
+  ⌫                                     delete
 
 
 
@@ -101,11 +128,6 @@
 
 
 * javascript
-
-
-
-
-* prettier
 
 
 
